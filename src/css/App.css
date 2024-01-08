@@ -5,14 +5,16 @@
   width: 100%;
 }
 
-.background-img {
-  z-index: -1;
+.background {
+  background-color: hsl(275, 100%, 97%);
+}
+.background .background-img {
   position: absolute;
   width: 100%;
   height: auto;
 }
-
-.card {
+.background .card {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;

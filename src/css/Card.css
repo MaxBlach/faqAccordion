@@ -1,9 +1,8 @@
 .card-background {
   width: 50vw;
-  height: 50vh;
+  height: 60vh;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0px 0px 5px;
 }
 
 /*# sourceMappingURL=Card.css.map */
