@@ -1,5 +1,6 @@
 import Card from "./components/Card";
 import "./css/App.css";
+import "typeface-work-sans";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
           src="/src/assets/background-pattern-desktop.svg"
         />
         <div className="card">
-          <Card />
+          <Card title="FAQs" />
         </div>
       </div>
     </>
